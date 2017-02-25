@@ -5,3 +5,26 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Todo.create([
+	{
+		caption: 'cap1',
+		isDone: true,
+		duration: 111,
+	},
+	{
+		caption: 'cap2',
+		isDone: true,
+		duration: 222,
+	},
+	{
+		caption: 'cap3',
+		isDone: true,
+		duration: 333,
+	},
+	{
+		caption: 'cap4',
+		isDone: true,
+		duration: 444,
+	},		
+])
